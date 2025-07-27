@@ -40,7 +40,7 @@ const userCard = (user) => {
             <img src="${user.avatar_url}" alt="${name}" class="avatar" />
         </div>
         <div class="user-info">
-            <h2>${name}</h2>
+            <h2><a href ="https://github.com/${user.login}" target="_blank" >${name}</a></h2>
             ${bio}
             <ul>
                 <li>${user.followers} <strong>Followers</strong></li>
