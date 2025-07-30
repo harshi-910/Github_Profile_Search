@@ -52,7 +52,6 @@ const userCard = (user) => {
     </div>`;
     main.innerHTML = card;
 };
-
 const errorFunction = (message) => {
     const html = `
     <div class="card">
